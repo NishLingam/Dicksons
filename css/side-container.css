@@ -1,124 +1,74 @@
 * {
-    box-sizing: border-box;
+    box-sizing: borderbox;
 }
 
-.logo {
-    background-color: white;
+
+.container-main {    
     display: flex;
+    flex-direction: column;
+}
+
+.house-pics {
+    display: flex;
+
+    
+   
+}
+
+.house-figure {
+    margin: 0;
+    margin-bottom: 10px;
+
+    
+}
+
+.house {
+    width: 100%;
+    display: block;
+    height: 145px;
 
     box-shadow: 0px 5px 9px -8px  rgb(97, 97, 97, 0.7); 
-    border-bottom: 1px solid rgba(158, 158, 158, 0.5); 
-         
-
+    border-bottom: 1px solid rgba(158, 158, 158, 0.5);  
 }
 
-.logo-pic {
-    height: 100px;
-    width: 252px;
-    margin: 22px 20px 22px 20px;
-
-    
+.body{
+    height: 90%;
 }
 
-.side-container {
-    flex: 0 0 15%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border-right: .5px solid rgba(158, 158, 158, 0.5);
-
-    background-color: rgb(252, 251, 244);
-
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 400;
+    margin-left: 40px;
+    color: rgba(146, 26, 26, 0.788);
+    font-size: 38px;
+    letter-spacing: 5px;    
 }
 
-.side-bar {
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-
-    
-}
-
-.side-nav {
-    display: flex;
-
-}
-
-
-
-.detail {  
-    flex:1;
-
-
-}
-
-.side-nav{
-    list-style: none;
-    
-}
-
-.side-nav-li:first-of-type {
-    margin-top: 90px;
-}
-
-.side-nav-li{
-    background-color: transparent;
-    padding: .5rem 2rem;
+h2 {
+    font-weight: 400;
+    font-size: 22px;
     color: rgb(146, 26, 26);
-    transition: color 0.1s; 
-    text-align: justify;  
-    margin-bottom: 18px;
-    
+    text-decoration: underline;
 
-    position: relative;
-
+    margin-bottom: 2px;
+  
 }
 
-.side-nav-button {
-    text-decoration: none;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    z-index: 10;
-    position: relative;
-    color: inherit;
-    margin-left: 20px;
-    
-    text-transform: uppercase;  
-    font-family: 'Muli', sans-serif;
-    font-weight: 500;
-    font-size: 19px;
-    letter-spacing: 1.5px; 
-    text-shadow: .4px 0px black;
-    
+.body-text {
+    margin: 0px 40px;
+    color: rgb(146, 26, 26);
 }
 
-.side-nav-li::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 4px;
-    background-color: rgb(170, 50, 50);
-    transform: scaleY(0);
-
-    transition: transform 0.2s,
-                width cubic-bezier(.17,.67,.83,.67) 0.2s 0.2s ;
-    
-
+.para:last-of-type {
+    margin-bottom: 40px;
 }
 
-.side-nav-li:hover::before {
-    width: 100%;
-    transform: scaleY(1);
-    
+.phone-svg {
+    height: 20px;
+    width: 20px;
 }
 
-.side-nav-li:hover {
-    color: grey;
+p {
+    font-size: 17px;
 }
-
