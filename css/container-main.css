@@ -25,6 +25,7 @@
 .house {
     width: 100%;
     display: block;
+    height: 145px;
 
     box-shadow: 0px 5px 9px -8px  rgb(97, 97, 97, 0.7); 
     border-bottom: 1px solid rgba(158, 158, 158, 0.5);  
